@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+ 
+# IDE
+.vscode/
+.idea/
+ 
+# Debug / leftover artifacts
+test_schema_details.txt
+*_graph.png
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# Streamlit
+.streamlit/secrets.toml
